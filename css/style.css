@@ -2,14 +2,31 @@
 	display: none;
 }
 
+.wrapper{
+	width: 740px;
+	height: 740px;
+	position: absolute;
+	left: 50%;
+	margin-left: -370px;
+	perspective: 1000px;
+}
+
 .board {
 	width: 640px;
 	height: 640px;
-	border: 5px solid #753917;
-	background-color: #ffffff;
+	background-color: #ecd3bc;
 	position: absolute;
 	left: 50%;
 	margin-left: -320px;
+	box-shadow:
+		0 0 0 2px #753917,
+		0 0 0 10px #542d0e,
+		3px 5px 0 15px #332d0e,
+		5px 5px 6px 16px #332d0e;
+	transform: 
+		rotateX(20deg) 
+		rotateY(5deg) 
+		rotateZ(4deg);
 }
 
 .brown {
@@ -100,7 +117,7 @@
 		0 0 0 7px #222222,
 		0 0 0 8px #ffffff,
 		0 0 0 10px #000000,
-		3px 5px 13px 10px #000000;
+		2px 4px 0px 11px #000000;
 }
 
 .string-3::after,
@@ -122,5 +139,5 @@
 		0 0 0 7px #dddddd,
 		0 0 0 8px #000000,
 		0 0 0 10px #ffffff,
-		3px 5px 13px 10px #000000;
+		2px 3px 0px 11px #ffffff;
 }
