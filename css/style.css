@@ -1,9 +1,6 @@
 .visually-hidden {
 	display: none;
 }
-.wrapper{
-	perspective: 1000px;
-}
 
 .board {
 	width: 640px;
