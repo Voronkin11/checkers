@@ -1,0 +1,129 @@
+.visually-hidden {
+	display: none;
+}
+.wrapper{
+	perspective: 1000px;
+}
+
+.board {
+	width: 640px;
+	height: 640px;
+	border: 5px solid #753917;
+	background-color: #ffffff;
+	position: absolute;
+	left: 50%;
+	margin-left: -320px;
+}
+
+.brown {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	background-color: #8B4513;
+	margin: 0;
+	padding: 0;
+}
+
+.string-8 {
+	top: 0;
+}
+
+.string-7 {
+	top: 80px;
+}
+
+.string-6 {
+	top: 160px;
+}
+
+.string-5 {
+	top: 240px;
+}
+
+.string-4 {
+	top: 320px;
+}
+
+.string-3 {
+	top: 400px;
+}
+
+.string-2 {
+	top: 480px;
+}
+
+.string-1 {
+	top: 560px;
+}
+
+.cell-b {
+	left: 80px;
+}
+
+.cell-d {
+	left: 240px;
+}
+
+.cell-f {
+	left: 400px;
+}
+
+.cell-h {
+	left: 560px;
+}
+
+.cell-c {
+	left: 160px;
+}
+
+.cell-e {
+	left: 320px;
+}
+
+.cell-g {
+	left: 480px;
+}
+
+.string-8::after,
+.string-7::after,
+.string-6::after	{
+	content: "";
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -15px;
+	margin-top: -15px;
+	background-color: #000000;
+	border-radius: 50%;
+	box-shadow:
+		0 0 0 1px #ffffff,
+		0 0 0 7px #222222,
+		0 0 0 8px #ffffff,
+		0 0 0 10px #000000,
+		3px 5px 13px 10px #000000;
+}
+
+.string-3::after,
+.string-2::after,
+.string-1::after	{
+	content: "";
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -15px;
+	margin-top: -15px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow:
+		0 0 0 1px #000000,
+		0 0 0 7px #dddddd,
+		0 0 0 8px #000000,
+		0 0 0 10px #ffffff,
+		3px 5px 13px 10px #000000;
+}
