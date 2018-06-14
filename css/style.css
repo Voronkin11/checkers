@@ -98,6 +98,48 @@
 	left: 480px;
 }
 
+.checker-black {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -15px;
+	margin-top: -15px;
+	background-color: #000000;
+	border-radius: 50%;
+	box-shadow:
+		0 0 0 1px #ffffff,
+		0 0 0 7px #222222,
+		0 0 0 8px #ffffff,
+		0 0 0 10px #000000,
+		2px 4px 0px 11px #000000,
+		3px 4px 0 11px #000000,
+		0 0 0 12px #000000;
+}
+
+.checker-white {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -15px;
+	margin-top: -15px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow:
+		0 0 0 1px #000000,
+		0 0 0 7px #dddddd,
+		0 0 0 8px #000000,
+		0 0 0 10px #ffffff,
+		2px 3px 0px 11px #ffffff,
+		3px 4px 0 11px #000000,
+		0 0 0 12px #ffffff;
+}
+
+
+/*
 .string-8::after,
 .string-7::after,
 .string-6::after	{
@@ -144,4 +186,4 @@
 		2px 3px 0px 11px #ffffff,
 		3px 4px 0 11px #000000,
 		0 0 0 12px #ffffff;
-}
+}*/
